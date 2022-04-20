@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is launched]]>
+    </line>
+    <line>
+      <![CDATA[First Name is Vinoth]]>
+    </line>
+    <line>
+      <![CDATA[Last Name is R]]>
+    </line>
+    <line>
+      <![CDATA[Male radio button is selected]]>
+    </line>
+    <line>
+      <![CDATA[Email id is vinothrwins@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Verification Number is 45]]>
+    </line>
+    <line>
+      <![CDATA[Submit Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Application is closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-02T10:49:08 IST" name="Suite" finished-at="2021-12-02T10:49:24 IST" duration-ms="16274">
+    <groups>
+    </groups>
+    <test started-at="2021-12-02T10:49:08 IST" name="Test" finished-at="2021-12-02T10:49:24 IST" duration-ms="16274">
+      <class name="com.nxtgenai.testcases.RegisterUser">
+        <test-method signature="launchApplication()[pri:1, instance:com.nxtgenai.testcases.RegisterUser@51dcb805]" started-at="2021-12-02T10:49:08 IST" name="launchApplication" finished-at="2021-12-02T10:49:20 IST" duration-ms="12322" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="registerUser()[pri:2, instance:com.nxtgenai.testcases.RegisterUser@51dcb805]" started-at="2021-12-02T10:49:20 IST" name="registerUser" finished-at="2021-12-02T10:49:24 IST" duration-ms="3535" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First Name is Vinoth]]>
+            </line>
+            <line>
+              <![CDATA[Last Name is R]]>
+            </line>
+            <line>
+              <![CDATA[Male radio button is selected]]>
+            </line>
+            <line>
+              <![CDATA[Email id is vinothrwins@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Verification Number is 45]]>
+            </line>
+            <line>
+              <![CDATA[Submit Button is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="closeApplication()[pri:3, instance:com.nxtgenai.testcases.RegisterUser@51dcb805]" started-at="2021-12-02T10:49:24 IST" name="closeApplication" finished-at="2021-12-02T10:49:24 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.nxtgenai.testcases.RegisterUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
